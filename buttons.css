@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: azure;
+    margin: 50px;
+}
+.container{
+    top: 500px;
+    width:80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .box{
+    width:50%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.container .box .button {
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px grey;
+    transition: all .5s;
+}
+
+.container .box .button1:hover {
+    background-color: green;
+    color: white;
+}
+
+.container .box .button2:hover{
+    background-color: green;
+    color: white;
+}
+.container .box .button3:hover{
+    background-color: green;
+    color: white;
+}
+.container .box .button4:hover{
+    background-color: green;
+    color: white;
+}

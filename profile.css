@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(9, 102, 179);
+}
+.container{
+    background-color: lightblue;
+    margin: 100px auto;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+}
+.container img{
+    height:150px;
+    width:150px;
+    border-radius: 50%;
+    margin: 20px;
+    border: 4px solid white;
+}
+.icons i{
+    font-size: 35px;
+    padding: 10px;
+}
+.button{
+    border-radius: 25px;
+    height: 40px;
+    width:150px;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    border: none;
+    background-color: rgb(4, 124, 4);
+}
+.ic i{
+    padding: 5px;
+    font-size: 18px;
+}
