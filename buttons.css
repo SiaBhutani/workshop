@@ -32,23 +32,55 @@ body{
     border: none;
     cursor: pointer;
     box-shadow: 3px 3px 3px grey;
-    transition: all .5s;
+    transition: all .7s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
 }
 
-.container .box .button1:hover {
-    background-color: green;
-    color: white;
+.container .box .button4::before {
+    content: "";
+    position: absolute;
+    top: -84px;
+    left: -88px;
+    background-color:rgb(252, 34, 34);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    transition: all .7s;
+    z-index: -1;
 }
 
-.container .box .button2:hover{
-    background-color: green;
-    color: white;
-}
-.container .box .button3:hover{
-    background-color: green;
-    color: white;
+.container .box .button4:hover::before {
+    transform: scale(4);
+    background: linear-gradient(to right, rgb(252, 34, 34), rgba(246, 10, 10, 0.205));
+    color:white;
 }
 .container .box .button4:hover{
-    background-color: green;
+    color:white;
+}
+.container .box .button3::before {
+    content: "";
+    position: absolute;
+    top: -32px;
+    left: -46px;
+    background-color: #a9e8a9cc;
+    height: 103px;
+    width: 26px;
+    transform: rotate(40deg);
+    transition: all .7s;
+    z-index: -1;
+}
+.container .box .button3{
+    transition: all .7s;
+}
+.container .box .button3:hover::before{
+    top: -32px;
+    left: 134px;
+    height: 103px;
+    width: 26px;
+    background-color: #a9e8a9cc;
+}
+.container .box .button2:hover{
     color: white;
 }
